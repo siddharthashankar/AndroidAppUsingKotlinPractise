@@ -6,6 +6,7 @@ import android.os.Bundle
 import android.util.Log
 import com.sid.androidusingkotlin.Constant
 import com.sid.androidusingkotlin.R
+import com.sid.androidusingkotlin.fcm.FCMActivity
 import com.sid.androidusingkotlin.notification.NotificationActivity
 import com.sid.androidusingkotlin.showToast
 import kotlinx.android.synthetic.main.activity_main.*
@@ -36,6 +37,10 @@ companion object {
         btnNotification.setOnClickListener {
             var intent = Intent(this, NotificationActivity::class.java)
             startActivity(intent)
+        }
+
+        btnFCMNotification.setOnClickListener {
+            startActivity(Intent(this, FCMActivity::class.java))
         }
     }
 }

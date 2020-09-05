@@ -39,6 +39,12 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Notification Demo" />
+
+            <Button
+                android:id="@+id/btnFCMNotification"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="FCM Demo" />
         </LinearLayout>
     </ScrollView>
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -35,7 +35,7 @@ class NotificationActivity : AppCompatActivity() {
             btn.setOnClickListener {
                 val notificationBuilder = NotificationCompat.Builder(this, channelId)
                     .setSmallIcon(R.drawable.ic_launcher_foreground)
-                    .setContentTitle("Notification Title")
+                    .setContentTitle("Notification Title by Sid")
                     .setContentText("Notification Message by Sid" )
                     .setPriority(NotificationCompat.PRIORITY_DEFAULT)
                     .setContentIntent(buttonPendingIntent)

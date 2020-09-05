@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "952826025519",
+    "firebase_url": "https://uobfcmtest.firebaseio.com",
+    "project_id": "uobfcmtest",
+    "storage_bucket": "uobfcmtest.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:952826025519:android:6bcbcda99a26b8a76218da",
+        "android_client_info": {
+          "package_name": "com.sid.androidusingkotlin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "952826025519-evmba5ngrhp5vmlfne9u7d8g1don7n89.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC05tbcmtP77UZ3LEtSvNNu3bOlEjUQudk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "952826025519-evmba5ngrhp5vmlfne9u7d8g1don7n89.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
