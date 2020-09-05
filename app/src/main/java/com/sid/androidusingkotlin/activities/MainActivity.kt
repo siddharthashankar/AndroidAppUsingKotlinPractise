@@ -6,6 +6,7 @@ import android.os.Bundle
 import android.util.Log
 import com.sid.androidusingkotlin.Constant
 import com.sid.androidusingkotlin.R
+import com.sid.androidusingkotlin.coroutine.CoroutineActivity
 import com.sid.androidusingkotlin.fcm.FCMActivity
 import com.sid.androidusingkotlin.notification.NotificationActivity
 import com.sid.androidusingkotlin.showToast
@@ -41,6 +42,10 @@ companion object {
 
         btnFCMNotification.setOnClickListener {
             startActivity(Intent(this, FCMActivity::class.java))
+        }
+
+        btnCoroutineWithMitch.setOnClickListener {
+            startActivity(Intent(this, CoroutineActivity::class.java))
         }
     }
 }

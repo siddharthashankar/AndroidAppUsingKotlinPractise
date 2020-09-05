@@ -9,7 +9,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".fcm.HomeActivity"></activity>
+        <activity android:name=".coroutine.CoroutineActivity"></activity>
+        <activity android:name=".fcm.HomeActivity" />
         <activity android:name=".fcm.FCMActivity" />
         <activity android:name=".notification.NotificationActivity" />
         <activity android:name=".activities.HobbiesActivity" />
