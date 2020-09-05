@@ -22,10 +22,9 @@ class MyFirebaseMessagingService : FirebaseMessagingService() {
 
         val intent = Intent(this@MyFirebaseMessagingService, HomeActivity::class.java)
         intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK)
-        //intent.putExtra("fcm_title", remoteMessage.notification.)
         intent.putExtra("fcm_title", remoteMessage.notification?.title)
         intent.putExtra("fcm_msg", remoteMessage.notification?.body)
-       // startActivity(intent)
+        startActivity(intent)
     }
 
 
