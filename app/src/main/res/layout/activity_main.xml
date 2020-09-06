@@ -57,6 +57,12 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Coroutine2WithMitch" />
+
+            <Button
+                android:id="@+id/btnCoroutineAppDevNotes"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="CoroutineWithAppDevNotes" />
         </LinearLayout>
     </ScrollView>
 </androidx.constraintlayout.widget.ConstraintLayout>

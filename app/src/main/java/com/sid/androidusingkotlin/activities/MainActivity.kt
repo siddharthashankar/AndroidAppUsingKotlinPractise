@@ -8,6 +8,7 @@ import com.sid.androidusingkotlin.Constant
 import com.sid.androidusingkotlin.R
 import com.sid.androidusingkotlin.coroutine.CoroutineActivity
 import com.sid.androidusingkotlin.coroutine.CoroutineActivityTwo
+import com.sid.androidusingkotlin.coroutine.appdevnotes.CoroutineDemoActivity
 import com.sid.androidusingkotlin.fcm.FCMActivity
 import com.sid.androidusingkotlin.notification.NotificationActivity
 import com.sid.androidusingkotlin.showToast
@@ -53,6 +54,9 @@ companion object {
             startActivity(Intent(this, CoroutineActivityTwo::class.java))
         }
 
+        btnCoroutineAppDevNotes.setOnClickListener {
+            startActivity(Intent(this, CoroutineDemoActivity::class.java))
+        }
 
     }
 }
