@@ -69,6 +69,21 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="CoroutineAsyncAwait WithAppDevNotes" />
+
+            <Button
+                android:id="@+id/btnCoroutineJobAppDevNotes"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="CoroutineJob WithAppDevNotes" />
+
+            <Button
+                android:id="@+id/btnStructuredConcurancy"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="StructuredConcurancy WithAppDevNotes" />
+
+
+
         </LinearLayout>
     </ScrollView>
 </androidx.constraintlayout.widget.ConstraintLayout>

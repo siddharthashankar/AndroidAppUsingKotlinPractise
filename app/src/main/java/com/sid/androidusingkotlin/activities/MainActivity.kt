@@ -10,6 +10,8 @@ import com.sid.androidusingkotlin.coroutine.CoroutineActivity
 import com.sid.androidusingkotlin.coroutine.CoroutineActivityTwo
 import com.sid.androidusingkotlin.coroutine.appdevnotes.AsyncAwaitDemoActivity
 import com.sid.androidusingkotlin.coroutine.appdevnotes.CoroutineDemoActivity
+import com.sid.androidusingkotlin.coroutine.appdevnotes.JobDemoActivity
+import com.sid.androidusingkotlin.coroutine.appdevnotes.StructoredConcurrencyDemoActivity
 import com.sid.androidusingkotlin.fcm.FCMActivity
 import com.sid.androidusingkotlin.notification.NotificationActivity
 import com.sid.androidusingkotlin.showToast
@@ -61,6 +63,14 @@ companion object {
 
         btnCoroutineAsyncAwaitAppDevNotes.setOnClickListener {
             startActivity(Intent(this, AsyncAwaitDemoActivity::class.java))
+        }
+
+        btnCoroutineJobAppDevNotes.setOnClickListener {
+            startActivity(Intent(this, JobDemoActivity::class.java))
+        }
+
+        btnStructuredConcurancy.setOnClickListener {
+            startActivity(Intent(this, StructoredConcurrencyDemoActivity::class.java))
         }
 
     }
