@@ -30,7 +30,7 @@ class CoroutineDemoActivity : AppCompatActivity() {
             withContext(Dispatchers.Main){
                 tvUserMessage.text =  "Downloading user $i in ${Thread.currentThread().name}"
             }
-                delay(500)
+                delay(1000)
         }
     }
 }
