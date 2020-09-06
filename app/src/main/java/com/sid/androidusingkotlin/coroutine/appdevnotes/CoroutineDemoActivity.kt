@@ -5,10 +5,7 @@ import android.os.Bundle
 import android.util.Log
 import com.sid.androidusingkotlin.R
 import kotlinx.android.synthetic.main.activity_coroutine_demo.*
-import kotlinx.coroutines.CoroutineScope
-import kotlinx.coroutines.Dispatchers
-import kotlinx.coroutines.launch
-import kotlinx.coroutines.withContext
+import kotlinx.coroutines.*
 
 class CoroutineDemoActivity : AppCompatActivity() {
     private var count = 0
@@ -33,7 +30,7 @@ class CoroutineDemoActivity : AppCompatActivity() {
             withContext(Dispatchers.Main){
                 tvUserMessage.text =  "Downloading user $i in ${Thread.currentThread().name}"
             }
-
+                delay(500)
         }
     }
 }
