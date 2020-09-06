@@ -12,6 +12,7 @@ import com.sid.androidusingkotlin.coroutine.appdevnotes.AsyncAwaitDemoActivity
 import com.sid.androidusingkotlin.coroutine.appdevnotes.CoroutineDemoActivity
 import com.sid.androidusingkotlin.coroutine.appdevnotes.JobDemoActivity
 import com.sid.androidusingkotlin.coroutine.appdevnotes.StructoredConcurrencyDemoActivity
+import com.sid.androidusingkotlin.coroutine.appdevnotes.viewmodelscope.ViewModelScopeActivity
 import com.sid.androidusingkotlin.fcm.FCMActivity
 import com.sid.androidusingkotlin.notification.NotificationActivity
 import com.sid.androidusingkotlin.showToast
@@ -71,6 +72,10 @@ companion object {
 
         btnStructuredConcurancy.setOnClickListener {
             startActivity(Intent(this, StructoredConcurrencyDemoActivity::class.java))
+        }
+
+        btnviewModelScope.setOnClickListener {
+            startActivity(Intent(this, ViewModelScopeActivity::class.java))
         }
 
     }
