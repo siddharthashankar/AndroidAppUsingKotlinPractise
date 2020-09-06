@@ -8,6 +8,7 @@ import com.sid.androidusingkotlin.Constant
 import com.sid.androidusingkotlin.R
 import com.sid.androidusingkotlin.coroutine.CoroutineActivity
 import com.sid.androidusingkotlin.coroutine.CoroutineActivityTwo
+import com.sid.androidusingkotlin.coroutine.appdevnotes.AsyncAwaitDemoActivity
 import com.sid.androidusingkotlin.coroutine.appdevnotes.CoroutineDemoActivity
 import com.sid.androidusingkotlin.fcm.FCMActivity
 import com.sid.androidusingkotlin.notification.NotificationActivity
@@ -56,6 +57,10 @@ companion object {
 
         btnCoroutineAppDevNotes.setOnClickListener {
             startActivity(Intent(this, CoroutineDemoActivity::class.java))
+        }
+
+        btnCoroutineAsyncAwaitAppDevNotes.setOnClickListener {
+            startActivity(Intent(this, AsyncAwaitDemoActivity::class.java))
         }
 
     }

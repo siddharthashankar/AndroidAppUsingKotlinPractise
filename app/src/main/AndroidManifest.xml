@@ -9,7 +9,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".coroutine.appdevnotes.CoroutineDemoActivity"></activity>
+        <activity android:name=".coroutine.appdevnotes.AsyncAwaitDemoActivity"></activity>
+        <activity android:name=".coroutine.appdevnotes.CoroutineDemoActivity" />
         <activity android:name=".coroutine.CoroutineActivityTwo" />
         <activity android:name=".coroutine.CoroutineActivity" />
         <activity android:name=".fcm.HomeActivity" />
