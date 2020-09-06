@@ -14,7 +14,7 @@ class ViewModelScopeActivity : AppCompatActivity() {
         setContentView(R.layout.activity_view_model_scope)
 
         mainActivityViewModel = ViewModelProvider(this).get(MainActivityViewModel::class.java)
-        mainActivityViewModel.getUserData()
+       // mainActivityViewModel.getUserData()
         mainActivityViewModel.users.observe(this, Observer { myUsers ->
             myUsers.forEach {
                 Log.i("MyTag", "name is ${it.name}")
